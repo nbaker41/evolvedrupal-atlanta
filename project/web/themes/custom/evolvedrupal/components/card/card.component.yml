@@ -1,0 +1,29 @@
+name: Card
+props:
+  type: object
+  properties:
+    header:
+      type: string
+      title: Header
+      description: "Header of Card"
+      examples:
+        - Card Header
+    body:
+      type: string
+      title: Body
+      description: "description of the cards contents"
+      examples:
+        - Card Body
+    footer:
+      type: string
+      title: Footer
+      description: "Footer of the card"
+      examples:
+        - Card Footer
+slots:
+  headerSlot:
+    title: Header Slot
+    description: Header of the Card
+  bodySlot: 
+    title: Body Slot
+    description: Body of the Card
